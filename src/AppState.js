@@ -8,5 +8,9 @@ export const AppState = reactive({
 
   cars: [],
 
-  activeCar: null
+  activeCar: null,
+  /** @type {import('./models/Job.js').Job[]} */
+  jobs: [],
+  /** @type {import('./models/Job.js').Job|null} */
+  activeJob: null
 })
